@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Quiz App</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- javascript -->
+    <script src="./assets/javascript/main.js" defer></script>
+    <script src="./assets/javascript/questions.js"></script>
+    <script src="./assets/javascript/confettiEffect.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1 id="main-heading">JavaScript Quiz</h1>
+      </header>
+
+      <main>
+        <p id="question"></p>
+
+        <ul>
+          <li class="option"></li>
+          <li class="option"></li>
+          <li class="option"></li>
+          <li class="option"></li>
+        </ul>
+
+        <div id="overlay" aria-hidden="true"></div>
+      </main>
+
+      <footer>
+        <span id="question-num"></span>
+        <button class="next-btn disabled">Next</button>
+      </footer>
+
+      <div id="score">
+        <div id="score-wrapper">
+          <h3></h3>
+          <button id="restart-btn">Restart</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="confetti-effect-container"></div>
+
+    <!--  -->
+  </body>
+</html>
